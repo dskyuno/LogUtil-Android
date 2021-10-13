@@ -10,3 +10,4 @@ dependencyResolutionManagement {
 rootProject.name = "LogUtil-Android"
 include ':app'
 include ':library_log'
+include ':library_error'
