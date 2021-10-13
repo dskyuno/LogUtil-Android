@@ -4,7 +4,9 @@ plugins {
     id 'kotlin-android'
     id 'maven-publish'
 }
-
+def mygroupId = "cn.yuno"
+def myartifactId = "log"
+def myversion = "1.0.0"
 android {
     compileSdk 31
 
@@ -48,9 +50,10 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = "com.yuno"
-                artifactId = 'logUtil'
-                version = '2.0'
+                groupId = mygroupId
+                artifactId = myartifactId
+                version = myversion
             }
         }
-    }}
+    }
+}
