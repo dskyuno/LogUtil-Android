@@ -1,4 +1,4 @@
-package com.example.library_error
+package cn.cellapp.library_error
 
 import org.junit.Test
 

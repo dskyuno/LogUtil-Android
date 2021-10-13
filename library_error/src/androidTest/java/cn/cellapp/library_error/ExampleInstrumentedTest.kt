@@ -1,4 +1,4 @@
-package com.example.library_error
+package cn.cellapp.library_error
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

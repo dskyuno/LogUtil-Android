@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-android'
     id 'maven-publish'
 }
-def mygroupId = "cn.yuno"
+def mygroupId = "cn.cellapp"
 def myartifactId = "log"
 def myversion = "1.0.0"
 android {
